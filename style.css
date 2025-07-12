@@ -13,6 +13,12 @@ body{
     padding-top: 50px;
     padding-left: 50px;
 }
+.profile-photo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
 
 .intro {
     display: flex;
