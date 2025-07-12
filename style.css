@@ -17,6 +17,7 @@ body{
     margin-top: 15px;
     display: flex;
     gap: 10px; /* space between buttons */
+    height: 50px;
 }
 
 .link-button {
