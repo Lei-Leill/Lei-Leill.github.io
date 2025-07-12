@@ -4,5 +4,10 @@ body{
 
 .flex-box{
     display: flex;
-    
+    padding-left: 20px;
+
+}
+
+#header{
+    padding-left: 30px;
 }
