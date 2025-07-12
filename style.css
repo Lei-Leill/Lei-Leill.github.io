@@ -5,6 +5,7 @@ body{
 .flex-box{
     display: flex;
     padding-left: 100px;
+    margin: auto;
 
 }
 
@@ -12,24 +13,22 @@ body{
     padding-top: 50px;
     padding-left: 50px;
 }
-
-.button-container {
+.button-group {
+    margin-top: 15px;
     display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 20px;
+    gap: 10px; /* space between buttons */
 }
 
 .link-button {
     padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    background-color: #4CAF50;
+    background-color: cornflowerblue;
     color: white;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .link-button:hover {
-    background-color: #45a049;
+    background-color: cornflowerblue;
 }
