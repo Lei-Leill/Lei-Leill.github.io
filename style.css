@@ -2,38 +2,25 @@ body{
     background-color:lightsteelblue;
 }
 
-.flex-box {
-  display: flex;
-  flex-wrap: wrap;            /* allows stacking on small screens */
-  gap: 40px;
-  align-items: center;
-  justify-content: center;    /* centers horizontally */
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: auto;
+.flex-box{
+    display: flex;
+    padding-left: 100px;
+    margin: auto;
+
 }
 
-.profile-photo {
-  width: 100%;                /* fill its container */
-  max-width: 200px;           /* never get too big */
-  height: auto;
-  border-radius: 10px;
-  flex-shrink: 0;
-}
-
-.profile-photo-container {
-  width: 200px;
-  flex-shrink: 0;
+#header{
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 600px;
-  padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 30px;
 }
-
 
 .button-group {
     margin-top: 15px;
