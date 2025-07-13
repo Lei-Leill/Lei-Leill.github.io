@@ -14,10 +14,8 @@ body{
     padding-left: 50px;
 }
 .profile-photo {
-  width: 30%;
-  max-width: 20px;
-  height: auto;
-  border-radius: 10px;
+  max-width:30%;
+  max-height: 30%;
 }
 
 .intro {
