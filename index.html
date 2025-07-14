@@ -14,7 +14,7 @@
 <body>
     <h1></h1>
     <div class = "flex-box">
-        <img class = "profile_photo" src= "profile_photo.jpg" />
+        <img class = "profile_photo" src= "figs/profile_photo.jpg" />
         <div class = "intro">
             <div id = "header">
                 <h1>Hello, I'm Lei Lei<br /></h1>
@@ -39,89 +39,86 @@
   <!-- Content Sections -->
   <section id="experience" class="content-section active">
   <h2>Experience</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-date">May 2025 – Present</div>
-      <div class="timeline-content">
-        <h3>AI Development Intern, ImpactableX</h3>
-        <p>Built and tested a multi-agent framework and feedback-enabled UI for ESG-focused AI research on Azure.</p>
-      </div>
+  <div class="timeline-container">
+  <!-- ImpactableX -->
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="figs/artificial-intelligence.png" alt="ImpactableX Logo">
     </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">Feb 2025 – Present</div>
-      <div class="timeline-content">
-        <h3>Research Assistant, Robotic Research Lab</h3>
-        <p>Developed a VLM-based system for robot task planning, failure explanation, and user-guided recovery learning.</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">May 2024 – May 2025</div>
-      <div class="timeline-content">
-        <h3>Research Assistant, Comp Bio & ML Lab</h3>
-        <p>Improved CNN/GAN interpretability and domain adaptation for population genetics classification models.</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">May 2023 – May 2024</div>
-      <div class="timeline-content">
-        <h3>Project Management Fellow, Haverford Libraries</h3>
-        <p>Improved project websites using HTML, Django, JavaScript with UX research and design updates.</p>
-      </div>
+    <div class="timeline-content">
+      <h3>AI Development Intern</h3>
+      <h4>ImpactableX, Philadelphia, PA</h4>
+      <p class="timeline-date">May 2025 – Present</p>
+      <p>
+        Built and tested a multi-agent framework and feedback-enabled UI for ESG-focused AI research. Developed an Azure-deployed pipeline for prompt iteration.
+      </p>
     </div>
   </div>
+
+  <!-- Robotics Lab -->
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="figs/bot.png" alt="Robotics Lab">
+    </div>
+    <div class="timeline-content">
+      <h3>Research Assistant</h3>
+      <h4>Robotic Research Lab, Haverford College</h4>
+      <p class="timeline-date">Feb 2025 – Present</p>
+      <p>
+        Developed a VLM-based system for autonomous robot task planning. Implemented failure detection, explanations, and feedback-based learning.
+      </p>
+    </div>
+  </div>
+
+  <!-- Computational Bio Lab -->
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="figs/deep-learning.png" alt="Comp Bio Lab">
+    </div>
+    <div class="timeline-content">
+      <h3>Research Assistant</h3>
+      <h4>Computational Biology & ML Lab</h4>
+      <p class="timeline-date">May 2024 – May 2025</p>
+      <p>
+        Conducted interpretability analysis of CNNs/GANs for population genetics. Improved domain adaptability and boosted classification accuracy by 30%.
+      </p>
+    </div>
+  </div>
+
+  <!-- Haverford Libraries -->
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <img src="figs/product-development.png" alt="Library Icon">
+    </div>
+    <div class="timeline-content">
+      <h3>Project Management Fellow</h3>
+      <h4>The Libraries, Haverford College</h4>
+      <p class="timeline-date">May 2023 – May 2024</p>
+      <p>
+        Led website improvements for 3 campus projects using HTML, Django, and JavaScript. Conducted UX surveys and improved navigability.
+      </p>
+    </div>
+  </div>
+</div>
 </section> 
-
-    <!-- <div class="timeline-container">
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="your-logo-url-here.png" alt="Company Logo">
-    </div>
-    <div class="timeline-content">
-      <h3>Associate Engineer (Full Stack Engineer & Systems Engineer)</h3>
-      <h4>Fidelity Investments</h4>
-      <p class="timeline-date">June 2024 – November 2024</p>
-      <p>
-        Worked in Cloud Platform’s AI team. Gained experience in LLMs, Prompt Engineering, RAG, system administration (Linux, PowerShell), and site reliability.
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-icon">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/1024px-Snapchat_logo.svg.png" alt="Snapchat Logo">
-    </div>
-    <div class="timeline-content">
-      <h3>Augmented Reality Development Extern/Fellow</h3>
-      <h4>Extern x Snap Inc.</h4>
-      <p class="timeline-date">Spring 2024</p>
-      <p>
-        Developed AR/VR lenses using Snap’s Lens Studio through weekly workshops with industry mentors.
-      </p>
-    </div>
-  </div>
-
-</div> -->
 
 
   <section id="skills" class="content-section">
   <h2>Skills</h2>
   <div class="skills-container">
-    <div class="skill-group">
-      <h4>Programming Tools</h4>
-      <p>Java, C/C++, Python, JavaScript, React, Express, Typescript, HTML, SQL, MongoDB, Git, Linux</p>
+    <div class="skill-group" style = "background-color:thistle;">
+      <h4>Programming Language</h4>
+      <p>Java, C/C++, Python, JavaScript, Typescript, HTML, SQL, CSS</p>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group" style = "background-color: khaki;">
       <h4>Frameworks & Platforms</h4>
-      <p>AWS, Azure, Django, Node.js, Flask</p>
+      <p>React, Express, AWS, Azure, Autogen, Langchain, Huggingface, MongoDB, Git, Linux, Django, Flask</p>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group" style = "background-color: rgb(170, 221, 201);">
       <h4>Core Skills</h4>
-      <p>Machine Learning, AI Engineering, Web Development, Database Management, Debugging & Unit Testing, Project Management, Team Collaboration & Leadership, Prototyping</p>
+      <p>Full-stack Web Development, Machine Learning, AI Engineering, Data Engineering, Database Management, Debugging & Unit Testing, Team Collaboration & Leadership, Prototyping</p>
     </div>
   </div>
 </section>
@@ -129,7 +126,75 @@
 
   <section id="projects" class="content-section">
   <h2>Projects</h2>
-  <div class="projects-container">
+  <div class="projects-flex">
+  <div class="project-card" style="background-image: url('figs/stock.jpg');">
+    <div class="overlay">
+      <p>Stock Price Prediction with Machine Learning and Statistics Algorithms (LSTM & Monte Carlo simulations). Built with Python & MATLAB using data compression and time-series analysis.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/recaptcha.jpg');">
+  <div class="overlay">
+    <p>Google reCAPTCHA Image Classification: Explored if ML models can accurately classify images to bypass reCAPTCHA. Evaluated model success across different reCAPTCHA versions, raising implications for fraud detection and AI robustness.</p>
+  </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/datafest.jpg');">
+    <div class="overlay">
+      <p>DataFest Philly 2025 Winner – Forecasted post-pandemic real estate trends using statistical modeling and ML techniques.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/AirPollution.jpg');">
+    <div class="overlay">
+      <p>Designed a dashboard with Node.js, MongoDB & SQL for querying and visualizing environmental data with interactive sorting and filtering.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/resume_AI.jpg');">
+    <div class="overlay">
+      <p>ResumeAdapterAI: A Gemini-powered resume review webapp with Flask backend, LLM fine-tuning, and real-time job-specific feedback.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/flav_lab.jpg');">
+    <div class="overlay">
+      <p>Flav Lab – Smart recipe generator using ingredient-matching logic, back-end querying, and an intuitive Figma-designed UI.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/LoopLocal.jpg');">
+    <div class="overlay">
+      <p>LoopLocal (In Progress): A full-stack web platform for local exchange and creative reuse of secondhand goods (HTML/CSS/JS).</p>
+    </div>
+  </div>
+
+
+  <div class="project-card" style="background-image: url('figs/coding_in_progress.jpg');">
+    <div class="overlay">
+      <p>AI Memo App (In Progress): iOS app to track where you place household items, with AI-assisted retrieval support. Built with Xcode & SQL.</p>
+    </div>
+  </div>
+
+  <div class="project-card" style="background-image: url('figs/coding_in_progress.jpg');">
+  <div class="overlay">
+    <p>LeetCode Practice Reminder Tool: A smart system that schedules problem reviews based on the Ebbinghaus forgetting curve. Integrates AI to prioritize topics and adapt to individual learning patterns.</p>
+  </div>
+</div>
+
+</div>
+
+  <!-- <div class="projects-container">
+    <div class="project-item">
+      <h3>LoopLocal (In Progress)</h3>
+      <p>Full-stack web platform to encourage local reuse and exchange of secondhand goods (JS, HTML, CSS).</p>
+    </div>
+
+    <div class="project-item">
+      <h3>AI Memo iOS App (In Progress)</h3>
+      <p>iOS app with integrated AI to track household items and improve organization for movers (Xcode, SQL, server).</p>
+    </div>
+
     <div class="project-item">
       <h3>Stock Price Prediction</h3>
       <p>Built a time-series LSTM model with MCMC, data compression, and forecasting techniques in Python and MATLAB.</p>
@@ -153,17 +218,8 @@
     <div class="project-item">
       <h3>Flav Lab – 4th Place of 30</h3>
       <p>Built a smart recipe generator with back-end ingredient-matching and Figma-based UI for personalized cooking.</p>
-    </div>
+    </div> -->
 
-    <div class="project-item">
-      <h3>LoopLocal (In Progress)</h3>
-      <p>Full-stack web platform to encourage local reuse and exchange of secondhand goods (JS, HTML, CSS).</p>
-    </div>
-
-    <div class="project-item">
-      <h3>AI Memo iOS App (In Progress)</h3>
-      <p>iOS app with integrated AI to track household items and improve organization for movers (Xcode, SQL, server).</p>
-    </div>
   </div>
 </section>
 
